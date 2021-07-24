@@ -1,0 +1,64 @@
+body {
+    background-color: indigo;
+}
+
+hr { 
+    display: block; 
+    height: 5px;
+    border: 0; 
+    border-top: 5px solid #ccc; 
+}
+
+#code {
+    font-family: Monospace;
+}
+
+#white-background {
+    filter: brightness(0) invert(1);
+}
+
+#person-image {
+    width: 200px;
+    height: 200px;
+}
+
+#left-text {
+    text-align: left;
+    margin-left: 1em;
+}
+
+#image-slider{
+    max-height: 400px;
+    width: auto;
+    border-radius: 12px;
+}
+
+#image-slider:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+#image-slider-middle{
+    max-height: 415px;
+    width: auto;
+    border-radius: 12px;
+}
+
+#image-slider-middle:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+#general-left-text{
+    text-align: left;
+    margin-left: 1em;
+}
+
+.card {
+    border-radius: 12px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
