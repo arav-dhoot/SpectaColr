@@ -9,6 +9,11 @@ hr {
     border-top: 5px solid #ccc; 
 }
 
+iframe{
+    width: 80%;
+    height: 300px;
+}
+
 #code {
     font-family: Monospace;
 }
